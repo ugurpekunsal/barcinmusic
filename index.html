@@ -55,23 +55,25 @@
 			<!-- Banner 1--><a
 				class="section section-banner d-none d-xl-block section-banner-top"
 				target="blank"
-				style="
-					background-image: url(images/banner/background-02-1920x60.jpg);
-					background-image: -webkit-image-set(
-						url(images/banner/background-02-1920x60.jpg) 1x,
-						url(images/banner/background-02-3840x120.jpg) 2x
-					);
-				"
-				><img
-					src="images/banner/foreground-02-1600x60.png"
-					srcset="
-						images/banner/foreground-02-1600x60.png  1x,
-						images/banner/foreground-02-3200x120.png 2x
-					"
-					alt=""
-					width="1600"
-					height="310"
-			/></a>
+				style="background-color: #212121"
+			>
+				<div class="wrapper">
+					<div class="marquee">
+						<h5>
+							Barçın Müzik'e hoş geldiniz. Ziyaretiniz için teşekkür ederiz.
+							Twitch yayın saatlerine göz atmayı unutmayın. Eğer YouTube
+							kanalıma abone olursanız çok memnun olurum. Patreon patronlarıma
+							çok teşekkür ederim.
+						</h5>
+						<h5>
+							Barçın Müzik'e hoş geldiniz. Ziyaretiniz için teşekkür ederiz.
+							Twitch yayın saatlerine göz atmayı unutmayın. Eğer YouTube
+							kanalıma abone olursanız çok memnun olurum. Patreon patronlarıma
+							çok teşekkür ederim.
+						</h5>
+					</div>
+				</div>
+			</a>
 			<!-- Page Header-->
 			<header class="section page-header">
 				<!--RD Navbar-->
@@ -116,10 +118,10 @@
 									<div class="rd-navbar-brand">
 										<!--Brand--><a class="brand" href="index.html"
 											><img
-												src="images/logo-default-296x52.png"
+												src="images_barcin/logo.png"
 												alt=""
-												width="148"
-												height="26"
+												width="120"
+												height="120"
 										/></a>
 									</div>
 								</div>
@@ -130,15 +132,28 @@
 												<a class="rd-nav-link" href="index.html">Home</a>
 											</li>
 											<li class="rd-nav-item">
-												<a class="rd-nav-link" href="about.html">About</a>
+												<a
+													class="rd-nav-link"
+													href="javascript:;"
+													onclick="alertUser()"
+													>About</a
+												>
 											</li>
 											<li class="rd-nav-item">
-												<a class="rd-nav-link" href="typography.html"
+												<a
+													class="rd-nav-link"
+													href="javascript:;"
+													onclick="alertUser()"
 													>Typography</a
 												>
 											</li>
 											<li class="rd-nav-item">
-												<a class="rd-nav-link" href="contacts.html">Contacts</a>
+												<a
+													class="rd-nav-link"
+													href="javascript:;"
+													onclick="alertUser()"
+													>Contacts</a
+												>
 											</li>
 										</ul>
 									</div>
@@ -170,137 +185,23 @@
 					</nav>
 				</div>
 			</header>
-			<!--Swiper-->
-			<section
-				class="section swiper-container swiper-slider swiper-slider-1"
-				data-loop="true"
-				data-autoplay="3892"
-				data-simulate-touch="false"
-			>
-				<div class="swiper-wrapper text-center">
-					<div
-						class="swiper-slide context-dark"
-						data-slide-bg="images/home1-01-1920x950.jpg"
-					>
-						<div class="swiper-slide-caption section-md">
-							<div class="container">
-								<div class="row justify-content-lg-center">
-									<div class="col-lg-8">
-										<h5
-											data-caption-animate="fadeInUp"
-											data-caption-delay="100"
-										>
-											It’s not just love for music
-										</h5>
-										<h1
-											data-caption-animate="fadeInUp"
-											data-caption-delay="200"
-										>
-											It’s My Passion
-										</h1>
-										<div
-											class="button-wrap"
-											data-caption-animate="fadeInUp"
-											data-caption-delay="300"
-										>
-											<a
-												class="button button-modern button-custom-size-1"
-												href="#"
-												>see all events</a
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div
-						class="swiper-slide context-dark"
-						data-slide-bg="images/home1-02-1920x950.jpg"
-					>
-						<div class="swiper-slide-caption section-md">
-							<div class="container">
-								<div class="row justify-content-lg-center">
-									<div class="col-lg-8">
-										<h5
-											data-caption-animate="fadeInUp"
-											data-caption-delay="100"
-										>
-											I make music to feel & enjoy
-										</h5>
-										<h1
-											data-caption-animate="fadeInUp"
-											data-caption-delay="200"
-										>
-											Your #1 DJ
-										</h1>
-										<div
-											class="button-wrap"
-											data-caption-animate="fadeInUp"
-											data-caption-delay="300"
-										>
-											<a
-												class="button button-modern button-custom-size-1"
-												href="#"
-												>see all events</a
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div
-						class="swiper-slide context-dark"
-						data-slide-bg="images/home1-03-1920x950.jpg"
-					>
-						<div class="swiper-slide-caption section-md">
-							<div class="container">
-								<div class="row justify-content-lg-center">
-									<div class="col-lg-8">
-										<h5
-											data-caption-animate="fadeInUp"
-											data-caption-delay="100"
-										>
-											I introduce new style of djing
-										</h5>
-										<h1
-											data-caption-animate="fadeInUp"
-											data-caption-delay="200"
-										>
-											Top DJing Skills
-										</h1>
-										<div
-											class="button-wrap"
-											data-caption-animate="fadeInUp"
-											data-caption-delay="300"
-										>
-											<a
-												class="button button-modern button-custom-size-1"
-												href="#"
-												>see all events</a
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Swiper Pagination-->
-				<div class="swiper-pagination"></div>
-			</section>
+			<!--Banner-->
+			<div>
+				<img
+					class="main-banner"
+					src="images_barcin/banner.gif"
+					alt="Main banner, thank you for listening. Support me on Patreon."
+				/>
+			</div>
 
 			<section
 				class="parallax-container section-lg text-center"
-				data-parallax-img="images/bg-home1-01-1920x1000.jpg"
+				data-parallax-img="images_barcin/banner-twitch.gif"
 			>
 				<div class="parallax-content">
 					<div class="container">
-						<h6 class="text-gray-600">
-							Trident Festival in Duchonka, slovakia - June 26, 2019
-						</h6>
-						<h2>featured event</h2>
+						<h6 class="text-gray-600">Twitch.tv/barcin</h6>
+						<h2>Next Stream</h2>
 						<div class="row justify-content-center">
 							<div class="col-lg-11">
 								<div class="post-event">
@@ -309,13 +210,8 @@
 										data-type="until"
 										data-time="17 Aug 2019 00:00"
 									></div>
-									<img
-										src="images/events-02-571x313.jpg"
-										alt=""
-										width="571"
-										height="156"
-									/><a class="button button-primary button-lg" href="#"
-										>buy tickets</a
+									<a class="button button-primary button-lg" href="#"
+										>Go to my Twitch channel</a
 									>
 								</div>
 							</div>
@@ -326,7 +222,7 @@
 
 			<section class="section section-lg bg-default text-center">
 				<div class="container">
-					<h6 class="text-gray-600">latest videos from me and my colleagues</h6>
+					<h6 class="text-gray-600">Latest videos from me</h6>
 					<h2>recent videos</h2>
 					<!--Bootstrap tabs-->
 					<div class="tabs-custom tabs-vertical tabs-video" id="tabs-2">
@@ -339,7 +235,7 @@
 									<iframe
 										width="886"
 										height="668"
-										src="//www.youtube.com/embed/4gRjnaitguQ"
+										src="//www.youtube.com/embed/MXiCReaWaVY"
 										allowfullscreen=""
 									></iframe>
 								</div>
@@ -351,7 +247,7 @@
 									<iframe
 										width="886"
 										height="668"
-										src="//www.youtube.com/embed/mfMR-URQl80"
+										src="//www.youtube.com/embed/_XEVS8eOTLA"
 										allowfullscreen=""
 									></iframe>
 								</div>
@@ -363,7 +259,7 @@
 									<iframe
 										width="886"
 										height="668"
-										src="//www.youtube.com/embed/xweHsBLcqp4"
+										src="//www.youtube.com/embed/HO5tm_iNI38"
 										allowfullscreen=""
 									></iframe>
 								</div>
@@ -375,7 +271,7 @@
 									<iframe
 										width="886"
 										height="668"
-										src="//www.youtube.com/embed/V3pPMUmIxAc"
+										src="//www.youtube.com/embed/_inq3uMU960"
 										allowfullscreen=""
 									></iframe>
 								</div>
@@ -387,7 +283,7 @@
 									<iframe
 										width="886"
 										height="668"
-										src="//www.youtube.com/embed/N1DEOCUujUg"
+										src="//www.youtube.com/embed/ZiLsUARAE1o"
 										allowfullscreen=""
 									></iframe>
 								</div>
@@ -401,14 +297,14 @@
 										<div class="nav-video">
 											<figure class="nav-video-figure">
 												<img
-													src="images/video-01-140x81.jpg"
+													src="https://i.ytimg.com/an_webp/MXiCReaWaVY/mqdefault_6s.webp?du=3000&sqp=CO6DoJAG&rs=AOn4CLDEeFQ-ffGIpQ3X2xX38o7bL7LClA"
 													alt=""
 													width="140"
 													height="40"
 												/>
 											</figure>
 											<h6 class="nav-video-title">
-												Armin van Buuren Live at Tomorrowland 2015
+												Billie Eilish - Lovely (livestream cover) | Barçın
 											</h6>
 										</div></a
 									>
@@ -418,14 +314,14 @@
 										<div class="nav-video">
 											<figure class="nav-video-figure">
 												<img
-													src="images/video-02-140x81.jpg"
+													src="https://i.ytimg.com/an_webp/_XEVS8eOTLA/mqdefault_6s.webp?du=3000&sqp=CLCMoJAG&rs=AOn4CLBUZT_CdKP06kSFHsyZ-y_4onTyKg"
 													alt=""
 													width="140"
 													height="40"
 												/>
 											</figure>
 											<h6 class="nav-video-title">
-												Juicy M - Live at MEO Sudoeste Festival
+												Seninle Başım Dertte - Canlı Yayın Coverı - Barçın
 											</h6>
 										</div></a
 									>
@@ -435,14 +331,14 @@
 										<div class="nav-video">
 											<figure class="nav-video-figure">
 												<img
-													src="images/video-03-140x81.jpg"
+													src="https://i.ytimg.com/an_webp/HO5tm_iNI38/mqdefault_6s.webp?du=3000&sqp=CPPvn5AG&rs=AOn4CLCg8buAEG3gzihdW72ituLunaaJqw"
 													alt=""
 													width="140"
 													height="40"
 												/>
 											</figure>
 											<h6 class="nav-video-title">
-												Armin van Buuren feat. Angel Taylor - Make It Right
+												[Piyano] Canlı Yayından Doğaçlamalar #6 - Piano Improv
 											</h6>
 										</div></a
 									>
@@ -452,14 +348,14 @@
 										<div class="nav-video">
 											<figure class="nav-video-figure">
 												<img
-													src="images/video-04-140x81.jpg"
+													src="https://i.ytimg.com/an_webp/_inq3uMU960/mqdefault_6s.webp?du=3000&sqp=CJSAoJAG&rs=AOn4CLDJYfn5StH4j_P6IhpPusWRdktdaQ"
 													alt=""
 													width="140"
 													height="40"
 												/>
 											</figure>
 											<h6 class="nav-video-title">
-												Armin Only crew taking over Sydney! Armin Only VLOG
+												Nightcall - Kavinsky - [Live Cover] - Barçın
 											</h6>
 										</div></a
 									>
@@ -469,14 +365,14 @@
 										<div class="nav-video">
 											<figure class="nav-video-figure">
 												<img
-													src="images/video-05-140x81.jpg"
+													src="https://i.ytimg.com/an_webp/ZiLsUARAE1o/mqdefault_6s.webp?du=3000&sqp=CKaPoJAG&rs=AOn4CLC9jzmrU4Xf3YkxaYFZLjbyilcUKg"
 													alt=""
 													width="140"
 													height="40"
 												/>
 											</figure>
 											<h6 class="nav-video-title">
-												Armin Only crew taking over San Francisco!
+												I Love You - Woodkid - [Live Cover] - Barçın
 											</h6>
 										</div></a
 									>
@@ -492,19 +388,23 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="thumbnail-classic">
 							<a
+								style="height: 350px; width: 480px"
 								class="thumbnail-classic-figure"
 								data-lightgallery="item"
-								href="images/image-original-01-1200x800.jpg"
+								href="images_barcin/instagram-image-1.jpg"
 								><img
-									src="images/home1-05-480x350.jpg"
-									alt=""
+									src="images_barcin/instagram-image-1.jpg"
+									alt="✨3 aydır beklenen Türkçe yayın duyurusu ✨
+
+									9-10-11 Şubat akşamları canlı müzik için 19:30’da twitch.tv/barcinmusic kanalında yayında olacağım 🌺
+									
+									Duyuruyu yorgun ama mutlu bir fotoğrafla yapmak istedim :’) bu haftanın da yorgunluğu kadar mutluluğu da getirmesi dileğiyle ✨"
 									width="480"
-									height="175"
+									height="350"
 							/></a>
 							<div class="thumbnail-classic-caption">
-								<h5 class="thumbnail-classic-title">Dream Village</h5>
-								<time class="thumbnail-classic-time" datetime="2019-09-19"
-									>Sep 19, 2019</time
+								<time class="thumbnail-classic-time" datetime="2022-02-09"
+									>Feb 9, 2022</time
 								>
 							</div>
 						</div>
@@ -512,19 +412,19 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="thumbnail-classic">
 							<a
+								style="height: 350px; width: 480px"
 								class="thumbnail-classic-figure"
 								data-lightgallery="item"
-								href="images/image-original-02-1200x800.jpg"
+								href="images_barcin/instagram-image-2.jpg"
 								><img
-									src="images/home1-06-480x350.jpg"
-									alt=""
+									src="images_barcin/instagram-image-2.jpg"
+									alt="03:18"
 									width="480"
-									height="175"
+									height="350"
 							/></a>
 							<div class="thumbnail-classic-caption">
-								<h5 class="thumbnail-classic-title">ULTRA MUSIC FESTIVAL</h5>
-								<time class="thumbnail-classic-time" datetime="2019-09-19"
-									>Sep 19, 2019</time
+								<time class="thumbnail-classic-time" datetime="2022-01-28"
+									>Jan 28, 2022</time
 								>
 							</div>
 						</div>
@@ -532,19 +432,20 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="thumbnail-classic">
 							<a
+								style="height: 350px; width: 480px"
 								class="thumbnail-classic-figure"
 								data-lightgallery="item"
-								href="images/image-original-03-1200x800.jpg"
+								href="images_barcin/instagram-image-3.jpg"
 								><img
-									src="images/home1-07-480x350.jpg"
-									alt=""
+									src="images_barcin/instagram-image-3.jpg"
+									alt="Yayından ekran görüntüsü 🌺✨
+									Tam Darkest Dungeon editi yapmalık kırmızı ❤️"
 									width="480"
-									height="175"
+									height="350"
 							/></a>
 							<div class="thumbnail-classic-caption">
-								<h5 class="thumbnail-classic-title">electric Zoo</h5>
-								<time class="thumbnail-classic-time" datetime="2019-09-19"
-									>Sep 19, 2019</time
+								<time class="thumbnail-classic-time" datetime="2022-01-19"
+									>Jan 19, 2022</time
 								>
 							</div>
 						</div>
@@ -552,19 +453,20 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="thumbnail-classic">
 							<a
+								style="height: 350px; width: 480px"
 								class="thumbnail-classic-figure"
 								data-lightgallery="item"
-								href="images/image-original-04-1200x800.jpg"
+								href="images_barcin/instagram-image-4.png"
 								><img
-									src="images/home1-08-480x350.jpg"
-									alt=""
+									src="images_barcin/instagram-image-4.png"
+									alt="Reels atmaktan fotoğraf atmayı unutmuşum :’)
+									"
 									width="480"
-									height="175"
+									height="350"
 							/></a>
 							<div class="thumbnail-classic-caption">
-								<h5 class="thumbnail-classic-title">life in color festival</h5>
-								<time class="thumbnail-classic-time" datetime="2019-09-19"
-									>Sep 19, 2019</time
+								<time class="thumbnail-classic-time" datetime="2022-01-04"
+									>Jan 04, 2022</time
 								>
 							</div>
 						</div>
@@ -574,74 +476,165 @@
 
 			<section class="section section-xl bg-default text-center">
 				<div class="container">
-					<h6 class="text-gray-600">from my blog</h6>
+					<h6 class="text-gray-600">About Me</h6>
 					<h2>latest news</h2>
 					<div class="row row-125">
 						<div class="col-md-6 col-lg-4">
 							<article class="post-classic">
 								<figure class="post-classic-figure">
-									<a href="#"
-										><img
-											src="images/post-classic-01-346x260.jpg"
-											alt=""
-											width="346"
-											height="130"
-									/></a>
+									<img
+										src="images_barcin/about-1.png"
+										alt="About Me"
+										width="346"
+										height="130"
+									/>
 								</figure>
 								<div class="post-classic-content">
-									<time class="post-classic-time" datetime="2019-09-19"
-										>Sep 19, 2019</time
-									>
 									<h5 class="post-classic-title">
-										<a href="#"
-											>teasing the demo of my new track ‘I need you’</a
-										>
+										Hello! My name is Barçın and I'm 22 y.o I'm streaming music
+										& games from Turkey!
 									</h5>
-									<a class="post-classic-link" href="#">read more</a>
 								</div>
 							</article>
 						</div>
 						<div class="col-md-6 col-lg-4">
 							<article class="post-classic">
 								<figure class="post-classic-figure">
-									<a href="#"
-										><img
-											src="images/post-classic-02-346x260.jpg"
-											alt=""
+									<a href="https://www.streamersonglist.com/s/barcin/songs">
+										<img
+											src="images_barcin/about-2.png"
+											alt="Song List"
 											width="346"
 											height="130"
 									/></a>
 								</figure>
 								<div class="post-classic-content">
-									<time class="post-classic-time" datetime="2019-09-19"
-										>Sep 19, 2019</time
-									>
 									<h5 class="post-classic-title">
-										<a href="#">Bring your favorite artist to your city!</a>
+										You can pick your song from my songlist and send your
+										request with donation or subscription
 									</h5>
-									<a class="post-classic-link" href="#">read more</a>
 								</div>
 							</article>
 						</div>
 						<div class="col-md-6 col-lg-4">
 							<article class="post-classic">
 								<figure class="post-classic-figure">
-									<a href="#"
-										><img
-											src="images/post-classic-03-346x260.jpg"
-											alt=""
-											width="346"
-											height="130"
-									/></a>
+									<img
+										src="images_barcin/about-3.png"
+										alt="Donate"
+										width="346"
+										height="130"
+									/>
 								</figure>
 								<div class="post-classic-content">
-									<time class="post-classic-time" datetime="2019-09-19"
-										>Sep 19, 2019</time
-									>
 									<h5 class="post-classic-title">
-										<a href="#">New single: ‘rave on’ (raverz 2019 anthem)</a>
+										Donation from Turkey Türkiye'den destek linkleri:
+										<ul style="text-align: left">
+											<li>
+												<a href="https://www.bynogame.com/destekle/barcin"
+													>• Bynogame</a
+												>
+											</li>
+											<li>
+												<a href="https://www.oyunfor.com/twitch-donate/barcin"
+													>• Oyunfor</a
+												>
+											</li>
+											<li>
+												<a
+													href="https://oyuneks.com/twitch-support/yayinci/barcin"
+													>• Oyuneks</a
+												>
+											</li>
+										</ul>
 									</h5>
-									<a class="post-classic-link" href="#">read more</a>
+								</div>
+							</article>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<article class="post-classic">
+								<figure class="post-classic-figure">
+									<img
+										src="images_barcin/about-4.png"
+										alt="Social Media"
+										width="346"
+										height="130"
+									/>
+								</figure>
+								<div class="post-classic-content">
+									<h5 class="post-classic-title">
+										<ul>
+											<li>
+												<a href="https://www.instagram.com/barcin.music?hl=tr"
+													>Instagram</a
+												>
+											</li>
+											<li>
+												<a
+													href="https://open.spotify.com/artist/6cTIJAOGc7aOxEnSnSLKhb"
+													>Spotify</a
+												>
+											</li>
+											<li>
+												<a href="https://soundcloud.com/barcinmusic"
+													>soundcloud</a
+												>
+											</li>
+											<li>
+												<a
+													href="https://www.youtube.com/channel/UCF5wHhTHEi1FEGY6gElSEmA"
+													>YouTube</a
+												>
+											</li>
+											<li><a href="https://discord.gg/n9sshhD">Discord</a></li>
+											<li><br />Contact : barciniletisim@gmail.com</li>
+										</ul>
+									</h5>
+								</div>
+							</article>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<article class="post-classic">
+								<figure class="post-classic-figure">
+									<a href="https://www.patreon.com/barcin">
+										<img
+											src="images_barcin/about-5.png"
+											alt="Equipment"
+											width="346"
+											height="130"
+										/>
+									</a>
+								</figure>
+								<div class="post-classic-content">
+									<h5 class="post-classic-title">
+										I launched my patreon page! We can't use paypal in Turkey,
+										if you want to support me and experience special patreon
+										benefits come join to the Dream Supporters, Full Moon Club
+										or ECLIPSE Club ^^
+									</h5>
+								</div>
+							</article>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<article class="post-classic">
+								<figure class="post-classic-figure">
+									<img
+										src="images_barcin/about-6.png"
+										alt="Equipment"
+										width="346"
+										height="130"
+									/>
+								</figure>
+								<div class="post-classic-content">
+									<h5 class="post-classic-title">
+										<p style="text-align: left">
+											• Mic - MXL 770 Condenser<br />• Piano - Nux WK-400
+											Dijital Piyano<br />• Flute - Yamaha YFL-21N<br />• Guitar
+											- Ibanez GRGR121EX<br />• Audio Interface - PreSonus
+											AudioBox USB 96<br />• Audio Interface - Audient EVO4<br />•
+											DAW - Ableton Live 10 Intro<br />• DAW - Studio One 5
+										</p>
+									</h5>
 								</div>
 							</article>
 						</div>
@@ -649,201 +642,37 @@
 				</div>
 			</section>
 
-			<!-- Banner 2--><a
-				class="section section-banner"
-				href="https://www.templatemonster.com/intense-multipurpose-html-template.html"
-				target="blank"
-				style="
-					background-image: url(images/banner/background-01-1920x310.jpg);
-					background-image: -webkit-image-set(
-						url(images/banner/background-01-1920x310.jpg) 1x,
-						url(images/banner/background-01-3840x620.jpg) 2x
-					);
-				"
-				><img
-					src="images/banner/foreground-01-1600x310.png"
-					srcset="
-						images/banner/foreground-01-1600x310.png 1x,
-						images/banner/foreground-01-3200x620.png 2x
-					"
-					alt=""
-					width="1600"
-					height="310"
-			/></a>
-			<section
-				class="parallax-container parallax-overlay-01"
-				data-parallax-img="images/bg-footer-1920x1285.jpg"
-			>
+			<!-- Banner 2--><img
+				style="min-width: -webkit-fill-available"
+				src="images_barcin/banner-transition.png"
+				alt="Happy Valentine's Day"
+				width="1600"
+				height="310"
+			/>
+			<section>
 				<div class="parallax-content">
 					<div class="section-sm prefooter-custom">
 						<div class="container">
 							<div class="row row-30">
 								<div class="col-lg-6">
-									<div
-										class="google-map-container google-map-container-custom-1"
-										data-center="new york, USA"
-										data-zoom="5"
-										data-styles='[{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}]'
-									>
-										<div class="google-map"></div>
-										<ul class="google-map-markers">
-											<li
-												data-location="Bayfront Park, Miami, USA"
-												data-description="ULTRA MUSIC FESTIVAL"
-												data-icon="images/gmap_marker-1.png"
-												data-icon-active="images/gmap_marker-1.png"
-											></li>
-											<li
-												data-location="Brooklyn, New York, United States"
-												data-description="CLUB CULTURAL"
-												data-icon="images/gmap_marker-2.png"
-												data-icon-active="images/gmap_marker-2.png"
-											></li>
-											<li
-												data-location="Hamilton Township Pennsylvania, United States"
-												data-description="A summer story"
-												data-icon="images/gmap_marker-3.png"
-												data-icon-active="images/gmap_marker-3.png"
-											></li>
-											<li
-												data-location="Montgomery Veterans Park / Arboretum, Harlingen Road, United States"
-												data-description="EXPO CENTER TRENciN"
-												data-icon="images/gmap_marker-4.png"
-												data-icon-active="images/gmap_marker-4.png"
-											></li>
-											<li
-												data-location="West Milford New Jersey, USA"
-												data-description="WKND FESTIVAL BALTICS"
-												data-icon="images/gmap_marker-5.png"
-												data-icon-active="images/gmap_marker-5.png"
-											></li>
-										</ul>
-									</div>
+									<img
+										src="images_barcin/banner-patreon.png"
+										alt="Become a patron and connect."
+									/>
 								</div>
 								<div class="col-lg-6">
-									<h3>tour dates</h3>
+									<h3>Streaming Schedule</h3>
 									<div class="box-event-wrap scroll-wrap">
 										<div class="box-event novi-bg">
 											<div class="box-event-date-wrap">
-												<h3 class="box-event-date-day">25</h3>
-												<p class="box-event-date-month">feb</p>
+												<h3 class="box-event-date-day">Monday</h3>
+												<p class="box-event-date-time">4:00 pm TST</p>
 											</div>
 											<div class="box-event-text-wrap">
-												<h5 class="box-event-text-title">
-													<a href="#">ULTRA MUSIC FESTIVAL</a>
-												</h5>
-												<ul class="box-event-text-location">
-													<li>Miami</li>
-													<li>USA</li>
-												</ul>
+												<h5 class="box-event-text-title">Chill and Music</h5>
 											</div>
 											<div class="box-event-button-wrap">
-												<a class="button button-outline button-sm" href="#"
-													>buy tickets</a
-												>
-											</div>
-										</div>
-										<div class="box-event novi-bg">
-											<div class="box-event-date-wrap">
-												<h3 class="box-event-date-day">12</h3>
-												<p class="box-event-date-month">mar</p>
-											</div>
-											<div class="box-event-text-wrap">
-												<h5 class="box-event-text-title">
-													<a href="#">edc orlando</a>
-												</h5>
-												<ul class="box-event-text-location">
-													<li>Tinkler Field</li>
-													<li>Orlando</li>
-													<li>USA</li>
-												</ul>
-											</div>
-											<div class="box-event-button-wrap">
-												<a class="button button-outline button-sm" href="#"
-													>buy tickets</a
-												>
-											</div>
-										</div>
-										<div class="box-event novi-bg">
-											<div class="box-event-date-wrap">
-												<h3 class="box-event-date-day">24</h3>
-												<p class="box-event-date-month">apr</p>
-											</div>
-											<div class="box-event-text-wrap">
-												<h5 class="box-event-text-title">
-													<a href="#">Electric zoo</a>
-												</h5>
-												<ul class="box-event-text-location">
-													<li>Randall’s Island Park</li>
-													<li>New York</li>
-													<li>USA</li>
-												</ul>
-											</div>
-											<div class="box-event-button-wrap">
-												<a class="button button-outline button-sm" href="#"
-													>buy tickets</a
-												>
-											</div>
-										</div>
-										<div class="box-event novi-bg">
-											<div class="box-event-date-wrap">
-												<h3 class="box-event-date-day">17</h3>
-												<p class="box-event-date-month">jul</p>
-											</div>
-											<div class="box-event-text-wrap">
-												<h5 class="box-event-text-title">
-													<a href="#">Nocturnal Wonderland</a>
-												</h5>
-												<ul class="box-event-text-location">
-													<li>Glen Helen National Park</li>
-													<li>USA</li>
-												</ul>
-											</div>
-											<div class="box-event-button-wrap">
-												<a class="button button-outline button-sm" href="#"
-													>buy tickets</a
-												>
-											</div>
-										</div>
-										<div class="box-event novi-bg">
-											<div class="box-event-date-wrap">
-												<h3 class="box-event-date-day">18</h3>
-												<p class="box-event-date-month">aug</p>
-											</div>
-											<div class="box-event-text-wrap">
-												<h5 class="box-event-text-title">
-													<a href="#">Coachella</a>
-												</h5>
-												<ul class="box-event-text-location">
-													<li>Empire Polo Club</li>
-													<li>Indio</li>
-													<li>USA</li>
-												</ul>
-											</div>
-											<div class="box-event-button-wrap">
-												<a class="button button-outline button-sm" href="#"
-													>buy tickets</a
-												>
-											</div>
-										</div>
-										<div class="box-event novi-bg">
-											<div class="box-event-date-wrap">
-												<h3 class="box-event-date-day">12</h3>
-												<p class="box-event-date-month">OCT</p>
-											</div>
-											<div class="box-event-text-wrap">
-												<h5 class="box-event-text-title">
-													<a href="#">Let It Roll</a>
-												</h5>
-												<ul class="box-event-text-location">
-													<li>Milovice</li>
-													<li>Czech Republic</li>
-												</ul>
-											</div>
-											<div class="box-event-button-wrap">
-												<a class="button button-outline button-sm" href="#"
-													>buy tickets</a
-												>
+												<a class="button button-outline button-sm">1 HOUR</a>
 											</div>
 										</div>
 									</div>
@@ -858,15 +687,16 @@
 					<div class="row row-15">
 						<div class="col-sm-6">
 							<p class="rights">
-								<span>DJ Fox</span><span>&nbsp;</span><span>&copy;&nbsp;</span
-								><span class="copyright-year"></span><span>&nbsp;</span
-								><span>\&nbsp;</span>All Rights Reserved \ Design by
-								<a href="https://www.templatemonster.com/">TemplateMonster</a>
+								<span>Barcin Music</span><span>&nbsp;</span
+								><span>&copy;&nbsp;</span><span class="copyright-year"></span
+								><span>&nbsp;</span><span>\&nbsp;</span>All Rights Reserved \
+								Design by
+								<a href="https://www.pknsl.com/">PKNSL Web Design</a>
 							</p>
 						</div>
 						<div class="col-sm-6">
 							<div class="footer-contact">
-								<a href="contacts.html">
+								<a href="javascript:;" onclick="alertUser()">
 									<div class="icon novi-icon mdi mdi-email-outline"></div>
 									Contact Me</a
 								>
@@ -879,6 +709,7 @@
 		<div class="snackbars" id="form-output-global"></div>
 		<script src="js/core.min.js"></script>
 		<script src="js/script.js"></script>
+		<script src="js/error.js"></script>
 		<!--coded by houdini-->
 	</body>
 </html>
