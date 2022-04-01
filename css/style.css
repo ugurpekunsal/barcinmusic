@@ -922,7 +922,7 @@ html [class*="section-"].section-bottom-0 {
 }
 
 .bg-default {
-	background-color: #222d4f;
+	background-color: #595260;
 }
 
 .bg-default:not([style*="background-"])
@@ -5271,7 +5271,7 @@ h2 + .tabs-albums {
 .owl-creative .owl-next {
 	width: 40px;
 	height: 40px;
-	background-color: rgba(28, 39, 72, 0.64);
+	background-color: #c19065;
 	border-radius: 0;
 }
 
@@ -7904,7 +7904,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(28, 39, 72, 0.85);
+	background-color: #c19065;
 	z-index: 1;
 }
 
@@ -7916,7 +7916,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-color: rgba(28, 39, 72, 0.85);
+		background-color: #c19065;
 		z-index: 1;
 	}
 }
