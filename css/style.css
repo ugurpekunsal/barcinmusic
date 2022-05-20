@@ -59,3 +59,13 @@ a {
 	text-decoration: none;
 	color: unset;
 }
+
+header {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(240, 248, 255, 0.397);
+}
+
+.container {
+	position: relative;
+}
