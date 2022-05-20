@@ -48,6 +48,11 @@ header {
 	background-color: rgba(240, 248, 255, 0.397);
 }
 
+.embedsocial-hashtag {
+	z-index: -1;
+	margin-top: -93px;
+}
+
 @media screen and (max-width: 1400px) {
 	header {
 		width: 97.9%;
@@ -92,13 +97,13 @@ header {
 
 body {
 	background-color: rgb(32, 32, 32);
-	color: aqua;
+	color: #f10065;
 }
 
 .footer {
 	border-radius: 0.5vw;
-	background-color: rgba(165, 42, 42, 0.5);
-	color: aqua;
+	background-color: #212529;
+	color: #f10065;
 }
 
 a {
@@ -111,9 +116,4 @@ a {
 }
 #navbarsExample03 {
 	text-align: center;
-}
-
-.embedsocial-hashtag {
-	z-index: -1;
-	margin-top: -5vw;
 }
