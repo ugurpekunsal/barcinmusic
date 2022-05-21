@@ -117,3 +117,7 @@ a {
 #navbarsExample03 {
 	text-align: center;
 }
+
+.logo {
+	max-width: fit-content;
+}
