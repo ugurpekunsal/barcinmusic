@@ -24,11 +24,13 @@
 			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
 			crossorigin="anonymous"
 		></script>
+		<script src="js/language.js" defer></script>
+
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<div class="container">
-			<div class="wrapper bg-dark" style="padding-top: 20px">
+			<div class="wrapper bg-dark turkce" style="padding-top: 20px">
 				<div class="marquee">
 					<h5>
 						Barçın Müzik'e hoş geldiniz. Ziyaretiniz için teşekkür ederiz.
@@ -41,6 +43,23 @@
 						Twitch yayın saatlerine göz atmayı unutmayın. Eğer YouTube kanalıma
 						abone olursanız çok memnun olurum. Patreon patronlarıma çok teşekkür
 						ederim.
+					</h5>
+				</div>
+			</div>
+
+			<div class="wrapper bg-dark english" style="padding-top: 20px">
+				<div class="marquee">
+					<h5>
+						Welcome to Barçın Music. Thank you for your visit. Don't forget to
+						check out the Twitch broadcast hours. I would be very happy if you
+						subscribe to my YouTube channel. A big thank you to my Patreon
+						bosses.
+					</h5>
+					<h5>
+						Welcome to Barçın Music. Thank you for your visit. Don't forget to
+						check out the Twitch broadcast hours. I would be very happy if you
+						subscribe to my YouTube channel. A big thank you to my Patreon
+						bosses.
 					</h5>
 				</div>
 			</div>
@@ -71,7 +90,10 @@
 
 					<div class="collapse navbar-collapse" id="navbarsExample03">
 						<ul class="navbar-nav ms-auto mb-2 mb-sm-0">
-							<li class="nav-item">
+							<li class="nav-item turkce">
+								<a class="nav-link" href="#home">Ana Sayfa</a>
+							</li>
+							<li class="nav-item english">
 								<a class="nav-link" href="#home">Home</a>
 							</li>
 							<li class="nav-item">
@@ -86,8 +108,25 @@
 							<li class="nav-item">
 								<a class="nav-link" href="#youtube">Youtube</a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item turkce">
+								<a class="nav-link" href="#about">Hakkımda</a>
+							</li>
+							<li class="nav-item english">
 								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li>
+								<button
+									class="btn btn-primary turkce"
+									onclick="languageSelector(`english`)"
+								>
+									EN
+								</button>
+								<button
+									class="btn btn-primary english"
+									onclick="languageSelector(`turkce`)"
+								>
+									TR
+								</button>
 							</li>
 						</ul>
 					</div>
@@ -96,8 +135,13 @@
 
 			<a id="home"></a>
 			<img
-				class="main-banner"
-				src="images/banner.gif"
+				class="main-banner turkce"
+				src="images/banner-main-tr.gif"
+				alt="Ana afis, dinlediginiz icin tesekkur ederim. Beni Patreon ile destekleyin."
+			/>
+			<img
+				class="main-banner english"
+				src="images/banner-main-en.gif"
 				alt="Main banner, thank you for listening. Support me on Patreon."
 			/>
 
@@ -176,14 +220,14 @@
 					</div>
 				</div>
 				<hr class="mobile-only" />
-				<div class="card bg-dark mx-2 py-4">
+				<div class="card bg-dark mx-2">
 					<img
-						src="https://static-cdn.jtvnw.net/jtv_user_pictures/00004c24-0805-4cf1-9c1c-a5f7c91c50ae-profile_image-70x70.png"
+						src="https://c10.patreonusercontent.com/4/patreon-media/p/campaign/5055598/ed10adb988194ad3b25973c413f0fa12/eyJ3IjoyMDB9/2.png?token-time=2145916800&token-hash=8j-x-PDtSJJm_2aNPPOns-Zhdwcbx3pindy6NhF0Umw%3D"
 						alt="Profile Photo"
-						class="card-img-top mx-auto my-5"
+						class="card-img-top mx-auto mt-3"
 						style="
 							object-fit: cover;
-							height: 100px;
+							height: 200px;
 							width: fit-content;
 							border-radius: 20px;
 						"
@@ -191,7 +235,7 @@
 
 					<div class="card-body">
 						<br />
-						<h5 class="card-title text-center">
+						<h5 class="card-title text-center turkce">
 							BARÇIN 19 Aralık 1999'da Ankara’da dünyaya geldi. Babasının evdeki
 							kaset ve CD'leriyle küçük yaşta New Age ve dünya müzikleriyle
 							tanıştı. Zamanla farklı müzik türlerine ilgi duyarak annesinin
@@ -206,6 +250,22 @@
 							şarkı söylemekte hem de canlı yayınlarında çaldığı doğaçlama
 							piyano parçalarını dijital platformlarda yayınlamak üzere
 							kaydetmekte.
+						</h5>
+						<h5 class="card-title text-center english">
+							BARÇIN was born on December 19, 1999 in Ankara. He was introduced
+							to New Age and world music at a young age with his father's
+							cassettes and CDs at home. Over time, she became interested in
+							different types of music and chose the flute as the instrument she
+							wanted to learn at the age of 8, based on her mother's family
+							tradition, and received training at intervals. In 2016, she had
+							her first studio experience outside the stage as a vocalist in an
+							inter-high school music competition. In 2020, he realized his
+							childhood dream by buying his own piano and improved himself by
+							watching the lesson videos he found on the internet. Enjoying
+							reflecting his emotional changes and pouring his own emotions into
+							music with interaction, BARÇIN both sings on Twitch
+							(twitch.tv/barcin) and records the improvised piano pieces he
+							plays in his live broadcasts to be broadcast on digital platforms.
 						</h5>
 					</div>
 				</div>
@@ -228,129 +288,287 @@
 			<hr />
 
 			<a id="about"></a>
-			<h6 class="text-gray-600">About Me</h6>
-			<h2>latest news</h2>
-			<div class="row row-125 card-group my-4">
-				<div class="card bg-dark mx-2">
-					<img class="card-img-top" src="images/about-1.png" alt="About Me" />
-					<div class="card-body">
-						<h5 class="card-title">
-							Hello! My name is Barçın and I'm 22 y.o I'm streaming music &
-							games from Turkey!
-						</h5>
+			<div class="turkce">
+				<h6 class="text-gray-600">Hakkımda</h6>
+				<h2>son haberler</h2>
+				<div class="row row-125 card-group my-4">
+					<div class="card bg-dark mx-2">
+						<img class="card-img-top" src="images/about-1.png" alt="About Me" />
+						<div class="card-body">
+							<h5 class="card-title">
+								Merhaba! Adım Barçın ve 22 yaşındayım Türkiye'den müzik ve oyun
+								yayını yapıyorum!
+							</h5>
+						</div>
 					</div>
-				</div>
-				<div class="card bg-dark mx-2">
-					<a href="https://www.streamersonglist.com/s/barcin/songs">
-						<img src="images/about-2.png" alt="Song List" class="card-img-top"
-					/></a>
+					<div class="card bg-dark mx-2">
+						<a href="https://www.streamersonglist.com/s/barcin/songs">
+							<img
+								src="images/about-2.png"
+								alt="Song List"
+								class="card-img-top"
+						/></a>
 
-					<div class="card-body">
-						<h5 class="card-title">
-							You can pick your song from my songlist and send your request with
-							donation or subscription
-						</h5>
+						<div class="card-body">
+							<h5 class="card-title">
+								Şarkı listemden şarkınızı seçip, bağış veya abonelik ile
+								isteğinizi iletebilirsiniz.
+							</h5>
+						</div>
+					</div>
+					<div class="card bg-dark mx-2">
+						<img src="images/about-3.png" alt="Donate" class="card-img-top" />
+						<div class="card-body">
+							<h5 class="card-title">
+								Türkiye'den destek linkleri:
+								<ul style="text-align: left">
+									<li>
+										<a href="https://www.bynogame.com/destekle/barcin"
+											>Bynogame</a
+										>
+									</li>
+									<li>
+										<a href="https://www.oyunfor.com/twitch-donate/barcin"
+											>Oyunfor</a
+										>
+									</li>
+									<li>
+										<a href="https://oyuneks.com/twitch-support/yayinci/barcin"
+											>Oyuneks</a
+										>
+									</li>
+								</ul>
+							</h5>
+						</div>
 					</div>
 				</div>
-				<div class="card bg-dark mx-2">
-					<img src="images/about-3.png" alt="Donate" class="card-img-top" />
-					<div class="card-body">
-						<h5 class="card-title">
-							Donation from Turkey Türkiye'den destek linkleri:
-							<ul style="text-align: left">
-								<li>
-									<a href="https://www.bynogame.com/destekle/barcin"
-										>Bynogame</a
-									>
-								</li>
-								<li>
-									<a href="https://www.oyunfor.com/twitch-donate/barcin"
-										>Oyunfor</a
-									>
-								</li>
-								<li>
-									<a href="https://oyuneks.com/twitch-support/yayinci/barcin"
-										>Oyuneks</a
-									>
-								</li>
-							</ul>
-						</h5>
-					</div>
-				</div>
-			</div>
-			<div class="row row-125 card-group my-4">
-				<div class="card bg-dark mx-2">
-					<img
-						src="images/about-4.png"
-						alt="Social Media"
-						class="card-img-top"
-					/>
-
-					<div class="card-body">
-						<h5 class="card-title">
-							<ul>
-								<li>
-									<a href="https://www.instagram.com/barcin.music?hl=tr"
-										>Instagram</a
-									>
-								</li>
-								<li>
-									<a
-										href="https://open.spotify.com/artist/6cTIJAOGc7aOxEnSnSLKhb"
-										>Spotify</a
-									>
-								</li>
-								<li>
-									<a href="https://soundcloud.com/barcinmusic">soundcloud</a>
-								</li>
-								<li>
-									<a
-										href="https://www.youtube.com/channel/UCF5wHhTHEi1FEGY6gElSEmA"
-										>YouTube</a
-									>
-								</li>
-								<li><a href="https://discord.gg/n9sshhD">Discord</a></li>
-								<li>
-									Contact :
-									<a href="mailto:barciniletisim@gmail.com"
-										>barciniletisim@gmail.com</a
-									>
-								</li>
-							</ul>
-						</h5>
-					</div>
-				</div>
-				<div class="card bg-dark mx-2">
-					<a href="https://www.patreon.com/barcin">
+				<div class="row row-125 card-group my-4">
+					<div class="card bg-dark mx-2">
 						<img
-							src="images/about-5.png"
+							src="images/about-4.png"
+							alt="Social Media"
+							class="card-img-top"
+						/>
+
+						<div class="card-body">
+							<h5 class="card-title">
+								<ul>
+									<li>
+										<a href="https://www.instagram.com/barcin.music?hl=tr"
+											>Instagram</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://open.spotify.com/artist/6cTIJAOGc7aOxEnSnSLKhb"
+											>Spotify</a
+										>
+									</li>
+									<li>
+										<a href="https://soundcloud.com/barcinmusic">soundcloud</a>
+									</li>
+									<li>
+										<a
+											href="https://www.youtube.com/channel/UCF5wHhTHEi1FEGY6gElSEmA"
+											>YouTube</a
+										>
+									</li>
+									<li><a href="https://discord.gg/n9sshhD">Discord</a></li>
+									<li>
+										İletişim :
+										<a href="mailto:barciniletisim@gmail.com"
+											>barciniletisim@gmail.com</a
+										>
+									</li>
+								</ul>
+							</h5>
+						</div>
+					</div>
+					<div class="card bg-dark mx-2">
+						<a href="https://www.patreon.com/barcin">
+							<img
+								src="images/about-5.png"
+								alt="Equipment"
+								class="card-img-top"
+							/>
+						</a>
+						<div class="card-body">
+							<h5 class="card-title">
+								Patreon sayfamı açtım! Türkiye'de PayPal kullanamıyoruz, bana
+								destek olmak ve özel Patreon avantajlarından yararlanmak
+								istiyorsanız Dream Supporters, Full Moon Club veya ECLIPSE
+								Club'a katılın ^^
+							</h5>
+						</div>
+					</div>
+					<div class="card bg-dark mx-2">
+						<img
+							src="images/about-6.png"
 							alt="Equipment"
 							class="card-img-top"
 						/>
-					</a>
-					<div class="card-body">
-						<h5 class="card-title">
-							I launched my patreon page! We can't use paypal in Turkey, if you
-							want to support me and experience special patreon benefits come
-							join to the Dream Supporters, Full Moon Club or ECLIPSE Club ^^
-						</h5>
-					</div>
-				</div>
-				<div class="card bg-dark mx-2">
-					<img src="images/about-6.png" alt="Equipment" class="card-img-top" />
 
-					<div class="card-body">
-						<h5 class="card-title">
-							<p style="text-align: left">
-								• Mic - MXL 770 Condenser<br />• Piano - Nux WK-400 Dijital
-								Piyano<br />• Flute - Yamaha YFL-21N<br />• Guitar - Ibanez
-								GRGR121EX<br />• Audio Interface - PreSonus AudioBox USB 96<br />•
-								Audio Interface - Audient EVO4<br />• DAW - Ableton Live 10
-								Intro<br />• DAW - Studio One 5
-							</p>
-						</h5>
+						<div class="card-body">
+							<h5 class="card-title">
+								<p style="text-align: left">
+									• Mik - MXL 770 Condenser<br />• Piyano - Nux WK-400 Dijital
+									Piyano<br />• Flüt - Yamaha YFL-21N<br />• Gitar - Ibanez
+									GRGR121EX<br />• Ses arayüzü - PreSonus AudioBox USB 96<br />•
+									Ses arayüzü - Audient EVO4<br />• DAW - Ableton Live 10
+									Intro<br />• DAW - Studio One 5
+								</p>
+							</h5>
+						</div>
 					</div>
 				</div>
+			</div>
+			<div class="english">
+				<h6 class="text-gray-600">About Me</h6>
+				<h2>latest news</h2>
+				<div class="row row-125 card-group my-4">
+					<div class="card bg-dark mx-2">
+						<img class="card-img-top" src="images/about-1.png" alt="About Me" />
+						<div class="card-body">
+							<h5 class="card-title">
+								Hello! My name is Barçın and I'm 22 y.o I'm streaming music &
+								games from Turkey!
+							</h5>
+						</div>
+					</div>
+					<div class="card bg-dark mx-2">
+						<a href="https://www.streamersonglist.com/s/barcin/songs">
+							<img
+								src="images/about-2.png"
+								alt="Song List"
+								class="card-img-top"
+						/></a>
+
+						<div class="card-body">
+							<h5 class="card-title">
+								You can pick your song from my songlist and send your request
+								with donation or subscriptionç
+							</h5>
+						</div>
+					</div>
+					<div class="card bg-dark mx-2">
+						<img src="images/about-3.png" alt="Donate" class="card-img-top" />
+						<div class="card-body">
+							<h5 class="card-title">
+								Donation from Turkey:
+								<ul style="text-align: left">
+									<li>
+										<a href="https://www.bynogame.com/destekle/barcin"
+											>Bynogame</a
+										>
+									</li>
+									<li>
+										<a href="https://www.oyunfor.com/twitch-donate/barcin"
+											>Oyunfor</a
+										>
+									</li>
+									<li>
+										<a href="https://oyuneks.com/twitch-support/yayinci/barcin"
+											>Oyuneks</a
+										>
+									</li>
+								</ul>
+							</h5>
+						</div>
+					</div>
+				</div>
+				<div class="row row-125 card-group my-4">
+					<div class="card bg-dark mx-2">
+						<img
+							src="images/about-4.png"
+							alt="Social Media"
+							class="card-img-top"
+						/>
+
+						<div class="card-body">
+							<h5 class="card-title">
+								<ul>
+									<li>
+										<a href="https://www.instagram.com/barcin.music?hl=tr"
+											>Instagram</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://open.spotify.com/artist/6cTIJAOGc7aOxEnSnSLKhb"
+											>Spotify</a
+										>
+									</li>
+									<li>
+										<a href="https://soundcloud.com/barcinmusic">soundcloud</a>
+									</li>
+									<li>
+										<a
+											href="https://www.youtube.com/channel/UCF5wHhTHEi1FEGY6gElSEmA"
+											>YouTube</a
+										>
+									</li>
+									<li><a href="https://discord.gg/n9sshhD">Discord</a></li>
+									<li>
+										Contact :
+										<a href="mailto:barciniletisim@gmail.com"
+											>barciniletisim@gmail.com</a
+										>
+									</li>
+								</ul>
+							</h5>
+						</div>
+					</div>
+					<div class="card bg-dark mx-2">
+						<a href="https://www.patreon.com/barcin">
+							<img
+								src="images/about-5.png"
+								alt="Equipment"
+								class="card-img-top"
+							/>
+						</a>
+						<div class="card-body">
+							<h5 class="card-title">
+								I launched my patreon page! We can't use paypal in Turkey, if
+								you want to support me and experience special patreon benefits
+								come join to the Dream Supporters, Full Moon Club or ECLIPSE
+								Club ^^
+							</h5>
+						</div>
+					</div>
+					<div class="card bg-dark mx-2">
+						<img
+							src="images/about-6.png"
+							alt="Equipment"
+							class="card-img-top"
+						/>
+
+						<div class="card-body">
+							<h5 class="card-title">
+								<p style="text-align: left">
+									• Mic - MXL 770 Condenser<br />• Piano - Nux WK-400 Dijital
+									Piyano<br />• Flute - Yamaha YFL-21N<br />• Guitar - Ibanez
+									GRGR121EX<br />• Audio Interface - PreSonus AudioBox USB 96<br />•
+									Audio Interface - Audient EVO4<br />• DAW - Ableton Live 10
+									Intro<br />• DAW - Studio One 5
+								</p>
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr />
+
+			<a id="Patreon"></a>
+
+			<div class="container">
+				<img
+					src="images/patreon.png"
+					alt="Patreon screenshot"
+					class="mx-auto mb-3"
+					width="fit content"
+					style="width: -webkit-fill-available"
+				/>
 			</div>
 		</div>
 	</body>
@@ -360,7 +578,20 @@
 			<footer
 				class="d-flex flex-wrap justify-content-between align-items-center py-3"
 			>
-				<p class="col-md-4 mb-0">
+				<p class="col-md-4 mb-0 turkce">
+					© 2022 Barcin Music <br />
+					PKNSL Web Design
+					<a href="https://www.pknsl.com/"
+						><img
+							src="images/pknsl.ico"
+							height="20px"
+							alt="pknsl website design and development logo"
+						/>
+						tarafından dizayn edildi</a
+					>
+				</p>
+
+				<p class="col-md-4 mb-0 english">
 					© 2022 Barcin Music <br />
 					Designed by
 					<a href="https://www.pknsl.com/"
@@ -398,7 +629,10 @@
 					<li class="nav-item">
 						<a href="#youtube" class="px-2">Youtube</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item turkce">
+						<a href="#about" class="px-2">Hakkımda</a>
+					</li>
+					<li class="nav-item english">
 						<a href="#about" class="px-2">About</a>
 					</li>
 				</ul>
