@@ -1,6 +1,6 @@
 {
 	"hosting": {
-		"site": "barcinmusic",
+		"site": "barcin",
 		"public": "/",
 		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
 		"rewrites": [
