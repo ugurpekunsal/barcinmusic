@@ -1,6 +1,6 @@
 {
 	"name": "barcinmusic",
-	"version": "1.5.0",
+	"version": "1.5.1",
 	"description": "A website for Barcin Music",
 	"main": "index.html",
 	"devDependencies": {},
